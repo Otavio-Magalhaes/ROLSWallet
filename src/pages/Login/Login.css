@@ -1,0 +1,61 @@
+
+
+.login{
+    background-color: var(--azul-escuro);
+    height: calc(100vh - 115px);
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container{
+    background-color: var(--branco);
+    width: 350px;
+    height: 410px;
+    border-radius: 10px;
+    padding: 41px 38px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+form p,
+form .login-criar-conta{
+    font-weight: black;
+}
+
+.login-criar-conta{
+    color: var(--verde-claro);
+    cursor: pointer;
+}
+
+.login-input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.login-input-group label{
+    font-size: 20px;
+}
+
+.login-input-group input{
+    border-radius: 7px;
+    background-color: #EFEEEE;
+    height: 39px;
+    width: 274px;
+    border: 1PX solid var(--cinza) ;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
+
+.login-criar-conta:hover{
+    color: var(--verde-escuro);
+}

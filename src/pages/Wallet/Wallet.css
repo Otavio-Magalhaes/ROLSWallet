@@ -1,0 +1,29 @@
+.wallet{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: var(--cinza);
+    padding-bottom: 45px;
+}
+
+.wallet-container-card{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    min-width: 350px
+}
+
+.wallet-container-card a{
+    cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+
+    .wallet-container-card {
+      gap: 30px;
+      margin: -35px auto auto;
+
+
+    }
+  }

@@ -1,0 +1,122 @@
+.historico{
+    width: 350px;
+    height: 442px;
+    background-color: var(--branco);
+    border-radius: 10px;
+    padding-top: 20px;
+
+    margin: 0 auto;
+ 
+}
+.historico-title-sem-registro{
+    text-align: center;
+    color: var(--preto);
+    font-size: 21px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.historico-select-container{
+    display: flex;
+    justify-content: end;
+    padding-right: 22px;
+    padding-bottom: 21px;
+}
+
+select {
+    right: 22px;
+    top: 20px;
+    background-color: var(--azul-escuro);
+    padding: 7px 20px  ;
+    color: var(--branco);
+    border-radius: 5px;
+    width: auto;
+    text-align: start;
+}
+
+.historico-table{
+    padding: 0 13px;
+    min-width: 100%;
+}
+.historico-table-title{
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid var(--cinza);
+    padding-bottom: 12px;
+    font-size: 12px;
+}
+
+th, td {
+    text-align: left;
+    padding: 4px;
+}
+th:nth-child(1), td:nth-child(1) {
+    width: 25%; /* Coluna "Descrição" */
+}
+th:nth-child(2), td:nth-child(2) {
+    width: 25%; /* Coluna "valor" */
+}
+th:nth-child(3), td:nth-child(3) {
+    width: 15%; /* Coluna "Tipo" */
+}
+
+th:nth-child(4), td:nth-child(4) {
+    width: 25%; /* Coluna "Data" */
+    text-align: center;
+}
+th:nth-child(5), td:nth-child(5) {
+    width: 20%; /* Coluna "acao" */
+    text-align: center;
+}
+.historico-data{
+    display: flex;
+    font-size: 12px;
+}
+
+.money{
+    font-size: 12px;
+}
+
+.lixeira{
+    cursor: pointer;
+}
+
+@media (min-width:1023px) {
+    .historico{
+        width: 1050px;
+        height: auto;
+        padding-top: 13px;
+    }
+    .historico-table{
+        padding: 0 46px;
+        width: 100%;
+    }
+    .historico-table-title{
+        gap: 0px;
+        padding-bottom: 25px;
+        margin-bottom: 15px;
+        font-size: 21px;
+    }
+
+    th:nth-child(2), td:nth-child(2) {
+        width: 25%; /* Coluna "valor" */
+    }
+    th:nth-child(3), td:nth-child(3) {
+        width: 25%; /* Coluna "Tipo" */
+    }
+
+
+    .historico-data{
+        display: flex;
+        font-size: 21px;
+        align-items: center;
+    }
+    .money{
+        font-size: 18px;
+    }
+
+
+
+
+  
+}

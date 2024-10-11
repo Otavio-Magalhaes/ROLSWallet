@@ -1,0 +1,21 @@
+.botao-container{
+    padding: 15px;
+    background-color: var(--verde-claro);
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botao-container:hover{
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+
+}
+button{
+    border: none;
+    background: transparent;
+    color: var(--branco);
+    font-family: "exo 2", sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+}

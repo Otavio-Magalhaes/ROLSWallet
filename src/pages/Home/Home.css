@@ -1,0 +1,17 @@
+.home{
+    overflow: hidden;
+    height: 100vh;
+    max-width: 100vw;
+    background-color: var(--azul-escuro);
+    display: flex;
+    flex-direction: column;
+    gap: 170px;
+    padding-top: 256px;
+    align-items: center;
+}
+
+.home-logo{
+    width: 250px;
+    height: 101px;
+}
+
