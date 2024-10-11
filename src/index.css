@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Exo 2", sans-serif;
+    overflow-x: hidden;
+}
+:root{
+
+
+    --verde-claro: #34D986;
+    --verde-escuro: #218838;
+    --azul-escuro: #072331;
+    --cinza: #ABB1B4;
+    --preto: #000;
+    --preto-claro: #1C1C1C;
+    --branco: #FFF;
+
+}

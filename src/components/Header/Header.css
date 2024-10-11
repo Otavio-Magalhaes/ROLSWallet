@@ -1,0 +1,35 @@
+.header-container{
+    background-color: var(--preto-claro);
+    height: 115px;
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.header-logo{
+    max-width: 165px;
+    max-height: 67px;
+  
+}
+
+@media (min-width: 1024px) {
+    .header-container{
+        height: 197px;
+    }
+    .header-container div{
+        padding-left: 99px;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        gap: 361px;
+        justify-content: flex-start;
+    }
+   .header-container span h1{
+    font-size: 55px;
+    color: var(--verde-claro);
+    font-weight: 900;
+   }
+  }
